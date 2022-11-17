@@ -17,7 +17,7 @@
 
 html,
 body {
-  font-family: 'Lato', 'Arial', sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-weight: 300;
   color: #38464d;
   font-size: 62.5%;
@@ -25,7 +25,7 @@ body {
 }
 
 .clearfix::after {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
@@ -290,7 +290,7 @@ body {
   position: absolute;
   top: -0.6rem;
   right: -0.7rem;
-  content: 'NEW';
+  content: "NEW";
   background-color: #ec3853;
 }
 
@@ -321,7 +321,7 @@ body {
   /* margin-right: 2rem;
     transform: translateY(0.4rem); */
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 5px;
 }
 
 /* NEW: CSS GRID */
@@ -382,12 +382,12 @@ body {
 }
 
 .resource__heading--premium::after {
-  content: 'PREMIUM';
+  content: "PREMIUM";
   background-color: #ff951f;
 }
 
 .resource__heading--new::after {
-  content: 'NEW';
+  content: "NEW";
   background-color: #ec3853;
 }
 
@@ -611,4 +611,24 @@ footer {
   .my-gif {
     height: 10rem;
   }
+}
+/* JDs styles */
+
+.group_section_heading_div {
+  font-size: 2.6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #4ed8f7;
+}
+
+.group_section_heading {
+  color: #26afeb;
+  font-size: 4rem;
+  /* margin-right: 2rem;
+    transform: translateY(0.4rem); */
+  display: block;
+  margin-bottom: 1rem;
 }
