@@ -1,0 +1,26 @@
+<section class="group group--tools" id="bebytecodemanipulation">
+  <div class="container">
+    <header>
+      <h2 class="group__heading">
+        <i class="group__heading--icon ion-ios-compose-outline"></i>
+        Bytecode Manipulation
+      </h2>
+    </header>
+    <article class="container__resource">
+      <div class="resource">
+        <img
+          class="resource__logo resource__logo--round"
+          src="img/logos/vscode.png"
+        />
+        <h3 class="resource__heading">
+          <a target="_blank" class="resource__link" href="https://asm.ow2.io/"
+            >ASM</a
+          >
+        </h3>
+        <p class="resource__text">
+          All-purpose, low-level bytecode manipulation and analysis.
+        </p>
+      </div>
+    </article>
+  </div>
+</section>

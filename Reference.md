@@ -31,3 +31,65 @@ I use the `One Monokai` in all the course videos. This is a free theme, similar 
 `Word Wrap` set to `on`, to avoid vertical scrollbars for long content
 
 `Tab Size` set to `2`, for better code readability
+
+---
+
+## Appbrewery Tools and Software
+https://www.appbrewery.co/p/web-development-course-resources
+
+1. Chrome
+2. Atom
+3. Atom Plugins  https://docs.google.com/document/d/e/2PACX-1vQNuhDC5pFXEVVNGasvddKuDHEXnqR033lsSD5tLA9NiEdHrsYM4MXVEXja2RnBgsCxK6XEo6YkMOFI/pub
+
+Atom Packages
+
+
+atom-ternjs
+Adds code intelligence to Atom.
+
+https://atom.io/packages/atom-ternjs
+
+
+autoclose-html-plus
+Will help you automatically close HTML tags.
+
+https://atom.io/packages/autoclose-html-plus
+
+
+emmet
+Adds code expansion to Atom.
+
+https://atom.io/packages/emmet
+
+
+csslint
+Adds CSS error checking abilities to Atom.
+
+https://atom.io/packages/csslint
+
+
+pigments
+Adds the ability to display colour in Atom code files.
+
+https://atom.io/packages/pigments
+
+
+language-ejs
+Adds EJS language support to Atom.
+
+https://atom.io/packages/language-ejs
+
+
+atom-beautify
+Helps to automatically format your code in Atom.
+
+https://atom.io/packages/atom-beautify
+
+Optional Packages
+atom-html-preview
+Sublime-Style-Column-Selection
+linter-eslint
+
+### Pesticide for Chrome
+This extension inserts the Pesticide CSS into the current page, outlining each element to better see placement on the page.
+https://chrome.google.com/webstore/detail/pesticide-for-chrome/bakpbgckdnepkmkeaiomhmfcnejndkbi
