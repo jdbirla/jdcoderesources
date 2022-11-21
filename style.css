@@ -24,6 +24,9 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+#spready {
+  font-size: 2rem;
+}
 .clearfix::after {
   content: "";
   display: table;
