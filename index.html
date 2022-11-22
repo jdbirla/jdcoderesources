@@ -379,6 +379,39 @@
                 Caching</a
               >
             </li>
+
+            <li>
+              <a href="#becli"
+                ><i class="group-nav--icon ion-ios-compose-outline"></i> CLI</a
+              >
+            </li>
+
+            <li>
+              <a href="#beclustermanagement"
+                ><i class="group-nav--icon ion-ios-compose-outline"></i> Cluster
+                management</a
+              >
+            </li>
+            <li>
+              <a href="#becodegenerator"
+                ><i class="group-nav--icon ion-ios-compose-outline"></i> Code
+                Generator</a
+              >
+            </li>
+
+            <li>
+              <a href="#becompilercompiler"
+                ><i class="group-nav--icon ion-ios-compose-outline"></i> create
+                Compiler
+              </a>
+            </li>
+
+            <li>
+              <a href="#becomputervision"
+                ><i class="group-nav--icon ion-ios-compose-outline"></i>
+                Computer Vision</a
+              >
+            </li>
           </ul>
         </div>
         <!--------------------------------------------------- Devops --------------------------------------------->
@@ -2890,6 +2923,45 @@
                 again.
               </p>
             </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://www.atlassian.com/software/clover"
+                  >Clover
+                </a>
+              </h3>
+              <p class="resource__text">
+                Relies on source-code instrumentation instead of bytecode
+                instrumentation.
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://cobertura.github.io/cobertura/"
+                  >Cobertura
+                </a>
+              </h3>
+              <p class="resource__text">
+                Cobertura - Relies on offline (or static) bytecode
+                instrumentation and class loading to collect code coverage
+                metrics. (GPL-2.0-only)
+              </p>
+            </div>
           </article>
         </div>
       </section>
@@ -3126,6 +3198,98 @@
                 >
               </h3>
               <p class="resource__text">Clean Code starts in your IDE</p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://github.com/google/error-prone"
+                  >Error Prone -</a
+                >
+              </h3>
+              <p class="resource__text">
+                Catches common programming mistakes as compile-time errors.
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://github.com/facebook/infer"
+                  >Infer</a
+                >
+              </h3>
+              <p class="resource__text">
+                Modern static analysis tool for verifying the correctness of
+                code.
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://github.com/INRIA/spoon"
+                  >Spoon
+                </a>
+              </h3>
+              <p class="resource__text">
+                Library for analyzing and transforming Java source code.
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://github.com/spotbugs/spotbugs"
+                  >Spotbugs
+                </a>
+              </h3>
+              <p class="resource__text">
+                Static analysis of bytecode to find potential bugs.
+                (LGPL-2.1-only)
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://github.com/SonarSource/sonar-java"
+                  >SonarJava
+                </a>
+              </h3>
+              <p class="resource__text">
+                Static analyzer for SonarQube & SonarLint. (LGPL-3.0-only)
+              </p>
             </div>
           </article>
         </div>
@@ -3965,26 +4129,6 @@
                 <a
                   target="_blank"
                   class="resource__link"
-                  href="https://projectlombok.org/features/all"
-                  >lombok</a
-                >
-              </h3>
-              <p class="resource__text">
-                Project Lombok is a java library that automatically plugs into
-                your editor and build tools, spicing up your java. Never write
-                another getter or equals ...
-              </p>
-            </div>
-
-            <div class="resource">
-              <img
-                class="resource__logo resource__logo--round"
-                src="img/logos/vscode.png"
-              />
-              <h3 class="resource__heading">
-                <a
-                  target="_blank"
-                  class="resource__link"
                   href="https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#bill-of-materials-bom-poms"
                   >Bill of Materials (BOM) POMs</a
                 >
@@ -4377,6 +4521,386 @@
         </div>
       </section>
 
+      <section class="group group--tools" id="becli">
+        <div class="container">
+          <header>
+            <h2 class="group__heading">
+              <i class="group__heading--icon ion-ios-compose-outline"></i>
+              CLI
+            </h2>
+          </header>
+          <article class="container__resource">
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://github.com/jdbirla/theBestOfJava?organization=jdbirla&organization=jdbirla#cli"
+                  >CLI</a
+                >
+              </h3>
+              <p class="resource__text">
+                Libraries for everything related to the CLI.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="group group--tools" id="beclustermanagement">
+        <div class="container">
+          <header>
+            <h2 class="group__heading">
+              <i class="group__heading--icon ion-ios-compose-outline"></i>
+              Cluster Management
+            </h2>
+          </header>
+          <article class="container__resource">
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://github.com/jdbirla/theBestOfJava?organization=jdbirla&organization=jdbirla#cluster-management"
+                  >Cluster Management</a
+                >
+              </h3>
+              <p class="resource__text">
+                Frameworks that can dynamically manage applications inside of a
+                cluster.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="group group--tools" id="becodegenerator">
+        <div class="container">
+          <header>
+            <h2 class="group__heading">
+              <i class="group__heading--icon ion-ios-compose-outline"></i>
+              Code Generators - Tools that generate patterns for repetitive code
+              in order to reduce verbosity and error-proneness.
+            </h2>
+          </header>
+          <article class="container__resource">
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://github.com/sviperll/adt4j"
+                  >ADT4J</a
+                >
+              </h3>
+              <p class="resource__text">
+                ADT4J - JSR-269 code generator for algebraic data types.
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://github.com/google/auto"
+                  >Auto</a
+                >
+              </h3>
+              <p class="resource__text">
+                Auto - Generates factory, service, and value classes.
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://bootify.io/"
+                  >Bootify</a
+                >
+              </h3>
+              <p class="resource__text">
+                Bootify ![c] - Browser-based Spring Boot app generation with JPA
+                model and REST API.
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://github.com/inferred/FreeBuilder"
+                  >FreeBuilder</a
+                >
+              </h3>
+              <p class="resource__text">
+                FreeBuilder - Automatically generates the Builder pattern.
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://github.com/verhas/javageci"
+                  >Geci</a
+                >
+              </h3>
+              <p class="resource__text">
+                Geci - Discovers files that need generated code, updates
+                automatically and writes to the source with a convenient API.
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://immutables.github.io/"
+                  >Immutables</a
+                >
+              </h3>
+              <p class="resource__text">
+                Immutables - Annotation processors to generate simple, safe and
+                consistent value objects.
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://github.com/square/javapoet/"
+                  >JavaPoet</a
+                >
+              </h3>
+              <p class="resource__text">
+                JavaPoet - API to generate source files.
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://github.com/jhipster/generator-jhipster"
+                  >JHipster</a
+                >
+              </h3>
+              <p class="resource__text">
+                JHipster - Yeoman source code generator for Spring Boot and
+                AngularJS.
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://www.joda.org/joda-beans/"
+                  >Joda-Beans</a
+                >
+              </h3>
+              <p class="resource__text">
+                Joda-Beans - Small framework that adds queryable properties to
+                Java, enhancing JavaBeans.
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://www.jpa-buddy.com/"
+                  >JPA Buddy</a
+                >
+              </h3>
+              <p class="resource__text">
+                JPA Buddy ![c] - Plugin for IntelliJ IDEA. Provides visual tools
+                for generating JPA entities, Spring Data JPA repositories,
+                Liquibase changelogs and SQL scripts. Offers automatic
+                Liquibase/Flyway script generation by comparing model to DB, and
+                reverse engineering JPA entities from DB tables.
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://projectlombok.org/features/all"
+                  >lombok</a
+                >
+              </h3>
+              <p class="resource__text">
+                Project Lombok is a java library that automatically plugs into
+                your editor and build tools, spicing up your java. Never write
+                another getter or equals ...
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://github.com/Randgalt/record-builder"
+                  >Record-Builder</a
+                >
+              </h3>
+              <p class="resource__text">
+                Record-Builder - Companion builder class, withers and templates
+                for Java records.
+              </p>
+            </div>
+
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://www.telosys.org/"
+                  >Telosys</a
+                >
+              </h3>
+              <p class="resource__text">
+                Telosys - Simple and light code generator available as an
+                Eclipse Plugin and also as a CLI.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="group group--tools" id="becompilercompiler">
+        <div class="container">
+          <header>
+            <h2 class="group__heading">
+              <i class="group__heading--icon ion-ios-compose-outline"></i>
+              Compiler-compiler
+            </h2>
+          </header>
+          <article class="container__resource">
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://github.com/jdbirla/theBestOfJava?organization=jdbirla&organization=jdbirla#compiler-compiler"
+                  >Compiler-compiler
+                </a>
+              </h3>
+              <p class="resource__text">
+                Frameworks that help to create parsers, interpreters or
+                compilers.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="group group--tools" id="becomputervision">
+        <div class="container">
+          <header>
+            <h2 class="group__heading">
+              <i class="group__heading--icon ion-ios-compose-outline"></i>
+              Computer Vision
+            </h2>
+          </header>
+          <article class="container__resource">
+            <div class="resource">
+              <img
+                class="resource__logo resource__logo--round"
+                src="img/logos/vscode.png"
+              />
+              <h3 class="resource__heading">
+                <a
+                  target="_blank"
+                  class="resource__link"
+                  href="https://github.com/jdbirla/theBestOfJava?organization=jdbirla&organization=jdbirla#computer-vision"
+                  >Computer Vision
+                </a>
+              </h3>
+              <p class="resource__text">
+                Libraries which seek to gain high level information from images
+                and videos.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
       <!-------------------------------------------------------------------------------------
         ---------------------------------------------------------------------------------------
         ------ DataBase-----

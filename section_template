@@ -13,12 +13,17 @@
           src="img/logos/vscode.png"
         />
         <h3 class="resource__heading">
-          <a target="_blank" class="resource__link" href="https://asm.ow2.io/"
-            >ASM</a
+          <a
+            target="_blank"
+            class="resource__link"
+            href="https://projectlombok.org/features/all"
+            >lombok</a
           >
         </h3>
         <p class="resource__text">
-          All-purpose, low-level bytecode manipulation and analysis.
+          Project Lombok is a java library that automatically plugs into your
+          editor and build tools, spicing up your java. Never write another
+          getter or equals ...
         </p>
       </div>
     </article>
